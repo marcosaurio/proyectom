@@ -37,7 +37,13 @@ td {
 	background: #2bde73;
     border-right: 3px solid #8E8E8E;
     border-left: 3px solid #8E8E8E;
-
+}
+#all{
+	background: white;
+	width: 600px;
+	height: 1000px;
+	margin-left: 200px;
+	padding: 20px;
 }
 
 #menu ul
@@ -91,6 +97,10 @@ td {
 h1,h2,h3,h4,h5 {
 	margin: 0px 0px 0px 0px;
 	}
+h1{
+	font-weight: bold;
+	border-bottom: 5px dashed #2bde73;
+}
 
 h4.gold { color: #c69b1d }
 
