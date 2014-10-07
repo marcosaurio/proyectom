@@ -1,10 +1,23 @@
+a{
+	font-weight: bold; 
+	text-decoration: none; 
+	font-size: 9pt;
+	color: red;
+}
+a:hover {
+	text-decoration: underline;
+}
+.rojo{
+	color: red;
+	font-weight: bold;
+}
 body {
 	margin: 0px 0px 0px 0px;
 	padding:0px;
 	background: #ffffff;
-        	font-family: trebuchet ms, helvetica, verdana;
-        	font-size: 9pt;
-	}
+    font-family: trebuchet ms, helvetica, verdana;
+    font-size: 9pt;
+}
 footer{
 	width: 1000px;
 	height: 40px;
@@ -19,11 +32,17 @@ footer div{
 	font-size: 12px;
 	font-weight: bold;
 }
+p{
+	text-align: justify;
+}
 td {             	
 	font-family: trebuchet ms, helvetica, verdana;
     font-size: 9pt; 
 	color:#000000;
 	}
+.terminos{
+	text-align: justify;
+}
 #menu{
 	position: relative;	
 	top:0;
@@ -42,10 +61,9 @@ td {
 	background: white;
 	width: 600px;
 	height: 1000px;
-	margin-left: 200px;
-	padding: 20px;
+	margin-left: 180px;
+	padding: 20 30 20 30px;
 }
-
 #menu ul
 {
 	list-style: none;
@@ -70,8 +88,10 @@ td {
 	margin-left: auto; 
 	margin-right: auto;
 	padding-top: 10px;
-	}
-
+}
+ul{
+	padding-left: 15px;
+}
 #pixels {
 	position: relative;	
 	top:0;
@@ -82,8 +102,7 @@ td {
 	margin-left: auto; 
 	margin-right: auto;
 	text-align: center;
-	}
-
+}
 #note {
 	color: #999999;
 	font-family: trebuchet ms, arial, helvetica;
@@ -92,61 +111,32 @@ td {
 	text-align: center;
 	margin-left: auto; 
 	margin-right: auto;
-	}
+}
 h1, h2{
 	font-weight: bold;
-	border-bottom: 5px dashed #2bde73;
+	border-bottom: 3px dashed #2bde73;
 	padding-bottom: 10px;
+	color: #8E8E8E;
 }
-
-h4.gold { color: #c69b1d }
-
-hr.c {	
-	border: none 0; 
-	border-top: 1px dashed #bbbbbb;
-	width: 100%;
-	margin-bottom: 10px;
-	text-align: center;
-	height: 1px;
-	}
 .stat1{ 
 	color: #000000;
 	font-weight: bold;
-	}
-
-#grey{ 
-	color: #999999;
-	font-weight: bold;
-    font-size: 8pt;	
-	}
-.red { 
-	color: #cc0000;
-	font-weight: bold;
-	}
-.red2 { 
-	font-size: 8pt;
-	color: #cc0000;
-	font-weight: bold;
-	}
-#greybold { 
-	color: #cccccc;
-	font-weight: bold;
-	}
-#statgreen {
+}
+#statrojo {
 	color: #ff0000; 	
 	font-weight: bold;
-	}
-#statred { 
+}
+#statverde { 
 	color: #2bde73;
 	font-weight: bold;
-	}
+}
 #pagecontent {
 	background:#e1e1e1;
 	padding: 10px;
 	width: 600;
 	text-align: left;
 	vertical-align: top;		
-	}
+}
 #stats {
 	position: absolute;	
 	top:4;
@@ -157,7 +147,7 @@ hr.c {
 	border:0;
 	text-align:center;
 	line-height:16px;
-	}
+}
 .letrero img{
 	width: 428px;
 }
@@ -170,7 +160,7 @@ hr.c {
 }
 
 
-#toplogo {
+#encabezado{
 	position: relative;	
 	top:0;
 	left:0;
@@ -183,69 +173,4 @@ hr.c {
 	margin-right: auto;
 	text-align: center;
 	background:#ffffff;
-	}
-
-
-
-#navbar {
-	position: absolute;	
-	top:45;
-	left: auto;
-	width:800px;
-	height:20px;
-	border:2px;
-	border-style: solid;
-	margin-left: auto; 
-	margin-right: auto;
-	text-align: center;
-	background: url(navbg.gif) repeat #c69b1d;
-	}
-
-#links {
-
-	height:20px;
-	width:600px;
-	border:0px;
-	text-align: center;
-	margin-left: auto; 
-	margin-right: auto;
-	}
-
-
-a.nav:link {
-	color: #000000; font-weight: bold; text-decoration: none; font-size: 9pt;
-	}
-
-a.nav:visited {
-	color: #000000; font-weight: bold; text-decoration: none;
-	}
-
-a.nav:hover {
-	text-decoration: underline;
-	}
-
-
-a.pix:link {
-	border: none;
-	}
-
-a.pix:visited {
-	border: none;
-	}
-
-a.pix:hover {
-	border: 5px;
-	}
-
-
-a:link {
-	color: #000099; font-weight: bold; text-decoration: none; font-size: 9pt;
-	}
-
-a:visited {
-	color: #000099; font-weight: bold; text-decoration: none;
-	}
-
-a:hover {
-	text-decoration: underline;
-	}
+}
