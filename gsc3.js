@@ -130,3 +130,9 @@ function d(o) {
 function e(o) {
 	sTitle = "";	
 }
+function compra_pixel(CoordX,CoordY) {
+	document.compra.xcoord.value = CoordX;
+	document.compra.ycoord.value = CoordY;
+
+	document.compra.submit();
+}

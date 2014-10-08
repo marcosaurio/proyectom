@@ -29,7 +29,7 @@
 	<!-- MENU -->
 	<div id="menu">
 			<ul>
-				<li><a class="nav" href="om.html">Inicio</a></li>
+				<li><a class="nav" href="index.html">Inicio</a></li>
 				<li><a class="nav" href="comprar.php">Comprar pixeles</a></li>
 				<li><a class="nav" href="preguntas.php">Preguntas frecuentes</a></li>
 				<li><a class="nav" href="#">Lista de pixeles</a></li>
@@ -44,7 +44,7 @@
 				
 					<div id="all">
 						<h1>Preguntas frecuentes</h1>
-						<p>En esta página encontrarás las respuestas a algunas de las preguntas que estoy seguro te estás haciendo. ¿Tienes una pregunta no respondida aquí? Por favor ponte en <a href="om.html">contacto</a></p>
+						<p>En esta página encontrarás las respuestas a algunas de las preguntas que estoy seguro te estás haciendo. ¿Tienes una pregunta no respondida aquí? Por favor ponte en <a href="contacto.php">contacto</a></p>
 						<ol>
 							<li><a href="#1">¿Cómo funciona?</a></li>
 							<li><a href="#2">¿Quién eres?</a></li>

@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML PUBLIC>
 <html lang="es">
 <head>
-	<title>La P&aacute;gina del Mill&oacute;n de Pesos</title>
+	<title>La Página del Millón de Pesos</title>
 	<meta charset="uft-8"/>
 	<meta name="description" content="La página web de Marco Hernández, un chico de 17 años de edad, quien espera pagar su carrera universidad mediante la venta de un millón de píxeles de espacios publicitarios en Internet por $1 peso cada uno.">
 	<link rel="stylesheet" href="stylepage.css">
@@ -29,7 +29,7 @@
 	<!-- MENU -->
 	<div id="menu">
 			<ul>
-				<li><a class="nav" href="om.html">Inicio</a></li>
+				<li><a class="nav" href="index.html">Inicio</a></li>
 				<li><a class="nav" href="#">Comprar pixeles</a></li>
 				<li><a class="nav" href="preguntas.php">Preguntas frecuentes</a></li>
 				<li><a class="nav" href="#">Lista de pixeles</a></li>
@@ -43,11 +43,15 @@
 				<td width=1000 height=1000 background="bg10.gif" valign=top>
 				
 					<div id="all">
-						<h1>Comprar p&iacute;xeles</h1>
-						<form id="compra" method="_get" action="">
-							<input type="">
-						</form>
-
+						<h1>Comprar píxeles</h1>
+						<p>Gracias por estar interesado en comprar mis píxeles.</p>
+						<p>El tramite tarda unos cuanto mínutitos y es muy sencillo.</p>
+						<ol>
+							<li>Datos del area de píxeles.</li>
+							<li>Datos de la imagen.</li>
+							<li>Datos de pago.</li>
+						</ol>
+						<p id="comprar" ><a href="comprar_0.php">¡Iniciar compra aquí!</a></p>
 						<h2>Términos y condiciones</h2>
 						<ul class="terminos">
 							<li>La compra mínima es de $100.00 MX (100 píxeles), y el máximo de compra es lo que queda.</li>

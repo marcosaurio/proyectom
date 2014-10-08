@@ -11,6 +11,9 @@ a:hover {
 	color: red;
 	font-weight: bold;
 }
+#comprar{
+	text-align: center;
+}
 body {
 	margin: 0px 0px 0px 0px;
 	padding:0px;
